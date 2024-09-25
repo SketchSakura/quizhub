@@ -1,0 +1,54 @@
+body{
+  font-size:20px;
+  font-family:'Calibri';
+  font-weight:300;
+  text-align: center;
+  background-color: gainsboro;
+}
+main{
+  padding-left: 10%;
+  padding-right:10%
+}
+h1{
+  color: rgb(66, 66, 66);
+  margin:0px;
+}
+nav{
+  background-color: rgb(184, 184, 184);
+  margin-left:auto;
+  margin-right:auto;
+  font-size:22px;
+  
+}
+ul{
+  list-style: none;
+  overflow:hidden;
+  margin:0;
+  padding:0;
+}
+li{
+  display:inline;
+}
+li{
+  display:inline-block;
+  padding:0px;
+  text-align:center;
+  padding-right:10px;
+  padding-left:10px;
+  border-right: 1px solid #ffffff;
+}
+
+li:last-child {
+  border-right: none;
+}
+a{
+  text-decoration: none;
+  color:black;
+  cursor:pointer;
+  transition:0.4s;
+  font-weight:bold;
+}
+a:hover{
+  background-color: rgb(163, 163, 163);
+  color:white;
+}

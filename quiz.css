@@ -1,0 +1,92 @@
+body{
+  font-size:20px;
+  font-family:'Calibri';
+  font-weight:300;
+  text-align: center;
+  background-color: gainsboro;
+}
+h1{
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  margin:0px;
+  padding:10px;
+  font-weight: 200;
+  color: rgb(66, 66, 66);
+  margin:0px;
+  text-shadow: 2px 2px rgb(86, 205, 232);
+}
+hr{
+  border:none;
+  height:0.1%;
+  background:rgb(62, 156, 176);
+  padding-bottom:10px;
+}
+/*Progress bar*/
+#myProgress{
+  width:100%;
+  background-color: gray;
+}
+#myBar{
+  height:25px;
+  background-color: rgb(75, 185, 210);
+  width:0%;
+  /*Loads in progress bar*/
+  transition:all ease-in-out 0.5s;
+}
+/*questions and answer format*/
+.question{
+  font-size:30px;
+  margin-bottom:15px;
+}
+.answers{
+  font-size:23px;
+  margin-bottom: 20px;
+  text-align: left;
+  display:inline-block;
+} 
+/*this will make it so the answers are lined up vs side by side*/
+.answers label{
+  display:block;
+  margin-bottom:10px;
+}
+button{
+  font-family:'work sans', sans-serif;
+  font-size:22px;
+  background-color:rgb(86, 205, 232);
+  color:black;
+  border:0px;
+  border-radius: 3px;
+  line-height:30px;
+  padding:10px;
+  cursor:pointer;
+  margin-bottom: 10px;
+  transition:0.5s;
+}
+.button:hover{
+  background-color: rgb(62, 156, 176);
+  color:white;
+}
+/* slide styling*/
+.slide{
+  position:absolute;
+  left:0px;
+  top: 0px;
+  width: 100%;
+  z-index:1;
+  opacity:0;
+  transition: opacity 0.5s;
+}
+.active-slide{
+  opacity:1;
+  z-index:2;
+}
+.quiz-container{
+  position:relative;
+  height:200px;
+  margin-top:20px;
+}
+#results{
+  margin-top:20px;
+  color:black;
+  font-size:25px;
+  font-weight:strong;
+}
