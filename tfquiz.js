@@ -202,7 +202,7 @@
       correctAnswer:"c"
     },
     {
-      question:"What is the name of the special task force with high morality rate of the Autobot that appear in multiple continuities?",
+      question:"What is the name of the special task force with high mortality rate of the Autobot that appear in multiple continuities?",
       answers: {
         a: "Death Knights",
         b: "Spark Squad",
